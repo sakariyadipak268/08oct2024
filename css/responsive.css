@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+} 
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.appoi-box{text-align:center;}
+	.appoi-box h3{width:100%; text-align:center;}
+	.appoi-box a{float:none; display:inline-block; margin:15px 0 0 0;}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	nav ul li{margin-right:35px;}
+	.infant .right-add ul{display:none;}
+	.infant .first{width:100%;}
+	.infant .first .right-add{padding:0;}
+	.infant .first .right-add button.btn{width:100%; display:block; color:#fff; background:#3AC10D; text-align:left; font-size:18px; font-family: 'OpenSans-Regular'; border-radius:0; padding:15px 30px;}
+	.infant .first .right-add button.btn i.fa {
+		float: right;
+		font-size: 18px;
+		position: absolute;
+		right: 60px;
+		top: 22px;}
+	#demo ul{display:block; width:100%; margin:15px 0 0 0;}
+
+.appoi-box{text-align:center;}
+	.appoi-box h3{width:100%; text-align:center;}
+	.appoi-box a{float:none; display:inline-block; margin:15px 0 0 0;}
+}
+
+
+@media (max-width: 767px) {
+ 
+/*=========================================*/
+/* Main Header */
+/*=========================================*/
+.main_h {
+    padding-top: 25px;
+    max-height: 74px;
+  }
+nav{display:none;}
+.nav{display:block;}
+.nav .nav-bars{top: -2px;}
+
+.main_h .logo{position: relative; top: -25px; z-index: 10; left: 15px; margin: 9px 0 0 0;}
+
+/*=========================================*/
+/* Main Banner */
+/*=========================================*/
+
+
+
+/*=========================================*/
+/* Main Content */
+/*=========================================*/
+
+.infant .right-add ul{display:none;}
+.infant .first{width:100%;}
+.infant .first .right-add{padding:0;}
+.infant .first .right-add button.btn{width:100%; display:block; color:#fff; background:#3AC10D; text-align:left; font-size:18px; font-family: 'OpenSans-Regular'; border-radius:0; padding:15px 30px;}
+.infant .first .right-add button.btn i.fa {
+    float: right;
+    font-size: 18px;
+    position: absolute;
+    right: 60px;
+    top: 22px;}
+#demo ul{display:block; width:100%; margin:15px 0 0 0;}
+
+.top-right{border:none;}
+.inner-left,
+.inner-right{width:100%; border:none; background-position:left 0; padding:0px 20px 0 60px; margin:30px 0;}
+
+.infant .first .right-add button.btn{margin:0 0 20px 0;}
+
+.appoi-box{text-align:center;}
+	.appoi-box h3{width:100%; text-align:center;}
+	.appoi-box a{float:none; display:inline-block; margin:15px 0 0 0;}
+	
+/*=========================================*/
+/* Main Footer */
+/*=========================================*/ 
+.footer-box, .blog-wapper .inner-part, .about-us .inner-part ul li {margin:0 0 30px 0;}
+.footer-box .cntr{max-width:100%;}
+.about-us .inner-part ul li{width:100%;}
+ 
+ 
+}
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+
+}
+
+
+@media (min-width: 240px) and (max-width: 567px) {
+	
+	.top-header{text-align:center;}
+	.top-header .logo{display:inline-block; float:none;}
+	.top-header .logo a{padding:15px 0 0 0;}
+	.top-header .cl{width:305px; float:none; display:inline-block; }
+	.top-header .cl i.fa{left:15%;}
+	.top-header .cl p{display:inline-block; float:none;}
+	
+	.timeWrapper {
+    width: 167px;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  h1.clock {
+    font-size: 20px;
+    line-height: 36px;
+    padding: 18px 0 5px;
+  }
+  .day {
+    padding-right: 0;
+  }
+  .colon {
+    display: none !important;
+  }
+  #clockdiv {
+    text-align: left !important;
+  }
+  #clockdiv>div {
+    padding-bottom: 4px;
+    display: inline-block;
+  }
+  .smalltext {
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 24px;
+    float: right;
+  }
+
+.appoi-box h3{font-size:18px;}
+}
